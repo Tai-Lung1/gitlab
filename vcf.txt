@@ -1,0 +1,59 @@
+1. Setting Up and Basic Commands
+Q: How do you initialize a new Git repository?
+A: Use git init to create a new Git repository.
+
+Q: How do you check the current status of your Git repository?
+A: Use git status to see the status of the working directory and the staging area.
+
+Q: How do you add files to the staging area?
+A: Use git add <filename> to add files to the staging area.
+
+2. Creating and Managing Branches
+Q: How do you create a new branch in Git?
+A: Use git branch <branch-name> to create a new branch.
+
+Q: How do you switch to another branch?
+A: Use git checkout <branch-name> to switch to the specified branch.
+
+Q: How do you delete a branch?
+A: Use git branch -d <branch-name> to delete a branch.
+
+3. Collaboration and Remote Repositories
+Q: How do you clone a remote repository?
+A: Use git clone <repository-url> to clone a remote repository.
+
+Q: How do you push changes to a remote repository?
+A: Use git push <remote-name> <branch-name> to push changes.
+
+Q: How do you fetch changes from a remote repository?
+A: Use git fetch <remote-name> to fetch changes.
+
+4. Git Tags and Releases
+Q: How do you create a new tag in Git?
+A: Use git tag <tag-name> to create a new tag.
+
+Q: How do you list all tags in a repository?
+A: Use git tag to list all tags.
+
+Q: How do you push tags to a remote repository?
+A: Use git push <remote-name> --tags to push tags.
+
+5. Advanced Git Operations
+Q: How do you perform an interactive rebase?
+A: Use git rebase -i <base-commit> to start an interactive rebase.
+
+Q: How do you squash commits in Git?
+A: During an interactive rebase, change pick to squash for the commits you want to squash.
+
+Q: How do you resolve merge conflicts?
+A: Manually edit the conflicting files to resolve conflicts, then use git add <filename> and git commit.
+
+6. Analyzing and Changing Git History
+Q: How do you view the commit history?
+A: Use git log to view the commit history.
+
+Q: How do you amend the last commit?
+A: Use git commit --amend to amend the last commit.
+
+Q: How do you revert a commit?
+A: Use git revert <commit-hash> to create a new commit that undoes the changes from the specified commit.
